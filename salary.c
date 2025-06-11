@@ -17,6 +17,7 @@ int main()
     printf("enter HRA(%%)\n");
     scanf("%f",&hra);
     printf("enter tax(%%)\n");
+    
     scanf("%f",&tax);
     totalsalary=bs+((bs*(da+hra-tax))/100);
     printf("Total salary:%2f",totalsalary);
