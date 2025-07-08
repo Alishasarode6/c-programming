@@ -7,7 +7,7 @@ int main()
     scanf("%d", &a);
 
     p=&a;
-    printf("number is %d", *p);
+    printf("number is %d", p);
 
     return 0;
 
