@@ -9,20 +9,20 @@ struct employe
 
 int main()
 {
-    struct employe s;
+    struct employe e;
 
     printf("enter employe details :");
     printf("\nID : ");
-    scanf("%d",&s.ID);
+    scanf("%d",&e.ID);
     printf("name : ");
-    scanf("%s", &s.name);
+    scanf("%s", &e.name);
     printf("salary : ");
-    scanf("%f", &s.salary);
+    scanf("%f", &e.salary);
 
     printf("\nGiven data is : \n");
-    printf("\nID     :%d",s.ID);
-    printf("\nname   :%s",s.name);
-    printf("\nsalary :%.2f",s.salary);
+    printf("\nID     :%d",e.ID);
+    printf("\nname   :%s",e.name);
+    printf("\nsalary :%.2f",e.salary);
 
     return 0;
 }
